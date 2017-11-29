@@ -25,7 +25,7 @@ public class TwoFace extends Strategy {
      * Note that if shouldDefect is already true, entering the nested if statements is not necessary,
      * because once shouldDefect is true, it will remain true through the duration of the match.
      * Conditions which could trigger defecting:
-     * 1. This is the second round and the opponent defected on the opening round
+     * 1. We are entering second round and the opponent defected on the opening round
      * 2. Opponent has already defected once, and defected again in the previous round
      * 3. 80 rounds have elapsed since the last time the opponent defected
      * 4. 80 rounds have elapsed since the first round, and the opponent has never defected
