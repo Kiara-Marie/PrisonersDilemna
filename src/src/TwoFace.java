@@ -29,6 +29,7 @@ public class TwoFace extends Strategy {
      * 2. Opponent has already defected once, and defected again in the previous round
      * 3. 80 rounds have elapsed since the last time the opponent defected
      * 4. 80 rounds have elapsed since the first round, and the opponent has never defected
+     *
      * @param opponentAction whether the opposing player cooperated or defected
      */
 

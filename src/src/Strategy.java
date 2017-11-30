@@ -14,9 +14,6 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-import ca.ubc.economics.econ221.axelrod.tournament.Action;
-import ca.ubc.economics.econ221.axelrod.tournament.Payoffs;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -151,14 +148,9 @@ public abstract class Strategy
          */
 
         List<Strategy> list = new ArrayList<Strategy>();
-        list.add(new AllCheat());
-        list.add(new AllCooperate());
+        list.add(new TwoFace());
         list.add(new Copycat());
-        list.add(new Copykitten());
-        list.add(new Detective());
-        list.add(new Grudger());
-        list.add(new RandomStrategy());
-        list.add(new Simpleton());
+
         return list;
     }
 }
